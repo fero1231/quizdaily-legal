@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>QuizDaily – Nutzungsbedingungen &amp; Datenschutz</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1a1a; --muted: #5a5a5a; --accent: #ff2d95; --card: #f7f7f9; --border: #e4e4e8;
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #16161a; --fg: #f2f2f4; --muted: #a8a8b3; --card: #202024; --border: #2e2e34; }
+  }
+  :root[data-theme="dark"] { --bg: #16161a; --fg: #f2f2f4; --muted: #a8a8b3; --card: #202024; --border: #2e2e34; }
+  html { scroll-padding-top: env(safe-area-inset-top, 0px); }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 60px; }
+  h1 { font-size: 1.6rem; margin-bottom: 4px; }
+  .sub { color: var(--muted); margin-top: 0; margin-bottom: 32px; font-size: 0.95rem; }
+  h2 { font-size: 1.15rem; margin-top: 40px; border-bottom: 1px solid var(--border); padding-bottom: 8px; }
+  section { scroll-margin-top: 16px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 18px; margin: 16px 0; font-size: 0.95rem; }
+  ul { padding-left: 1.2em; }
+  a { color: var(--accent); }
+  .updated { color: var(--muted); font-size: 0.85rem; margin-top: 48px; }
+  nav { display: flex; gap: 16px; margin-bottom: 24px; flex-wrap: wrap; }
+  nav a { text-decoration: none; font-weight: 600; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>QuizDaily</h1>
+  <p class="sub">Nutzungsbedingungen und Datenschutzerklärung</p>
+  <nav><a href="#terms">Nutzungsbedingungen</a><a href="#privacy">Datenschutz</a></nav>
+
+  <section id="terms">
+    <h2>Nutzungsbedingungen</h2>
+    <div class="card">
+      <p>QuizDaily ist ein privates, nicht-kommerzielles Automatisierungswerkzeug, das ausschließlich vom Betreiber selbst genutzt wird, um selbst produzierte Quiz-Videoinhalte auf den eigenen TikTok-Account des Betreibers hochzuladen.</p>
+      <ul>
+        <li>Die Anwendung wird nicht Dritten zur Nutzung angeboten und verarbeitet keine Daten anderer Nutzer.</li>
+        <li>Sämtliche hochgeladenen Inhalte werden vom Betreiber selbst erstellt und verantwortet.</li>
+        <li>Die Nutzung erfolgt im Einklang mit den jeweils aktuellen Nutzungsbedingungen und Richtlinien von TikTok.</li>
+        <li>Der Betreiber behält sich vor, die Anwendung jederzeit zu ändern oder einzustellen.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="privacy">
+    <h2>Datenschutzerklärung</h2>
+    <div class="card">
+      <p>QuizDaily erhebt und verarbeitet keine personenbezogenen Daten Dritter. Die Anwendung nutzt die offizielle TikTok Content Posting API ausschließlich, um Inhalte auf das eigene Konto des Betreibers hochzuladen.</p>
+      <ul>
+        <li>Es werden keine Daten an Dritte weitergegeben oder verkauft.</li>
+        <li>Zugangsdaten (OAuth-Token) werden ausschließlich lokal auf dem Gerät des Betreibers gespeichert.</li>
+        <li>Es findet kein Tracking und keine Auswertung von Nutzerverhalten außerhalb der eigenen Videostatistiken statt.</li>
+        <li>Bei Fragen zum Datenschutz kann der Betreiber über das verknüpfte TikTok-Entwicklerkonto kontaktiert werden.</li>
+      </ul>
+    </div>
+  </section>
+
+  <p class="updated">Stand: 27. September 2026</p>
+</div>
+</body>
+</html>
